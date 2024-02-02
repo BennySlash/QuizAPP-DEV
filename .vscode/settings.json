@@ -1,0 +1,12 @@
+{
+  "folder-color.pathColors": [
+    {
+      "folderPath": "QuizApp-DEV\\client\\",
+      "color": "foldercolorizer.green"
+    },
+    {
+      "folderPath": "QuizApp-DEV\\server\\",
+      "color": "foldercolorizer.SkyBlue"
+    }
+  ]
+}
