@@ -4,7 +4,7 @@ const BASE_URL = "http://localhost:4000";
 
 export async function sendDataToServer(body) {
   try {
-    const response = await axios.post(`${BASE_URL}/employee-score-name`, body);
+    const response = await axios.post(`api/employee-score-name`, body);
 
     return response.data;
   } catch (error) {

@@ -36,8 +36,6 @@ const AdminConsole = () => {
       .get("api/employee-score")
       .then((res) => {
         setEmployeeScore(res.data);
-
-        // console.log(employeeScore.data);
       })
       .catch((err) => {
         console.log(err);
@@ -57,8 +55,6 @@ const AdminConsole = () => {
   };
 
   const handleChange = (event) => {
-    // fetchData();
-
     setInput(event.target.value);
     setDisplayResults(true);
   };

@@ -29,9 +29,7 @@ app.use("/", getScoreRouter);
 const PORT = process.env.PORT || 4000;
 
 mongoose
-  .connect(MONGO_URI, {
-    useUnifiedTopology: true,
-  })
+  .connect(MONGO_URI, {})
   .then(() => {
     console.log("Connected to MongoDB");
   })
